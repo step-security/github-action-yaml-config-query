@@ -813,14 +813,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jq-tools/jq@npm:^0.0.10":
-  version: 0.0.10
-  resolution: "@jq-tools/jq@npm:0.0.10"
+"@jq-tools/jq@npm:^0.0.11":
+  version: 0.0.11
+  resolution: "@jq-tools/jq@npm:0.0.11"
   peerDependencies:
     tslib: ^2.3.0
   bin:
     jq: src/bin/jq.js
-  checksum: 10/09903fe4efad7a1cf574fd8bc19e0cf2da60a3cbbaf013f3bd642b2790259c435c2108571eac0006f7f1f71ace7021d88e49798db6090dc62e90506e0af511da
+  checksum: 10/c684204034c8317edec18687b24ce4eef90795050b48425cc7357d7f1d78d453618095cbd318c211ef9c49dadb5ff9b86556b7123a6e8151b170a7cfc3e546c2
   languageName: node
   linkType: hard
 
@@ -4584,7 +4584,7 @@ __metadata:
   dependencies:
     "@actions/core": "npm:^2.0.0"
     "@jest/globals": "npm:^29.7.0"
-    "@jq-tools/jq": "npm:^0.0.10"
+    "@jq-tools/jq": "npm:^0.0.11"
     "@types/jest": "npm:^29.5.12"
     "@types/node": "npm:^20.4.4"
     "@typescript-eslint/eslint-plugin": "npm:^7.17.0"
