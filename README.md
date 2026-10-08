@@ -17,15 +17,6 @@ it's part as the action outputs referenced using JQ.
 This action is useful in simplifing complext GitHub action workflows in
 different ways. For examples follow [usage](#usage) section.
 
-## Migration `v0` to `v1`
-
-There is an issue
-[The query contains `true` or `false` fails with an error](https://github.com/alexxander/jq-tools/issues/4).
-A workaround is to use a quote around `"true" and `"false" in a query.
-
-To migrate from `v0` to `v1`, quote in your queries all `true`/`false` and
-Github actions substitutions resovled to the values.
-
 ### Example
 
 - `query: .true` replace with `query: ."true"`

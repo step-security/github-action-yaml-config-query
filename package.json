@@ -1,6 +1,6 @@
 {
   "name": "yaml-config-query",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Define YAML document, filter it with JSON query and get result as outputs",
   "main": "lib/main.js",
   "exports": {
