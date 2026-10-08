@@ -69,7 +69,7 @@
   },
   "dependencies": {
     "@actions/core": "^2.0.0",
-    "@jq-tools/jq": "^0.0.10",
+    "@jq-tools/jq": "^0.0.11",
     "axios": "^1.20.0",
     "yaml": "^2.9.1"
   },
