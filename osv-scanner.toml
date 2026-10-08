@@ -1,0 +1,8 @@
+
+[[IgnoredVulns]]
+id = "GHSA-vfj7-8cjw-p6xm"
+reason = "braces v3.0.3 - No patch available. Used only as a transitive dev dependency via micromatch ← jest (test runner). Not present in the action's runtime dist. The vulnerability requires user-controlled input to the braces pattern function, which is never exposed in this action."
+
+[[IgnoredVulns]]
+id = "GHSA-hp3w-g68c-fv3c"
+reason = "sprintf-js v1.0.3 - No patch available. Used only as a transitive dev dependency via argparse ← js-yaml v3 (pulled in by eslint/jest tooling). The action uses the 'yaml' package (v2) for runtime YAML parsing, not js-yaml. sprintf-js is unreachable in the action's runtime dist."
